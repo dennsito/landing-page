@@ -2,12 +2,18 @@
     font-family: Roboto, Arial, sans-serif;
     margin: 0;
     padding: 0;
+    /* outline: red solid 1px; */
 }
 
 html{
     box-sizing: border-box;
 }
 
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
 .header{
     width: 100%;
@@ -127,6 +133,7 @@ html{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 128px 0;
 }
 
 .emphasized p{
@@ -142,4 +149,46 @@ html{
     font-style: normal;
     font-weight: 900;
     text-align: end;
+}
+
+.signcontainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 64px 0;
+    flex:1;
+}
+
+.signup{
+    background-color: #ba4716;
+    display: flex;
+    padding: 64px 128px;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.signtext h3, .signtext p{
+    color:#F9FAF8;
+}
+
+.signtext h3 {
+    font-size: 24px;
+}
+
+.signup button{
+    background-color: #ba4716;
+    border: solid #F9FAF8 2px;
+    border-radius: 4px;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding: 0 16px;
+    font-size: 24px;
+}
+
+.footer{
+    background-color: #2f0404;
+    padding: 32px 0;
+    height: 64px;
+    text-align: center;
+    color: #F9FAF8;
 }
