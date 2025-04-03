@@ -81,7 +81,7 @@ html{
 }
 
 .content{
-    margin-top: 32px;
+    margin-top: 64px;
 }
 
 .content h2{
@@ -92,12 +92,27 @@ html{
 }
 
 .images {
-    margin:32px 0;
+    margin:64px 0;
     display: flex;
+    justify-content: center;
+    gap:64px;
+    flex-wrap: wrap;
 }
 
-.images img{
+.box{
+    width: 168px;
+}
+
+.box img{
     flex-shrink: 0;
-    height: 125px;
-    width: 125px;
+    height: 168px;
+    width: 168px;
+    border: solid #ba4716 4px;
+    border-radius: 8px;
+}
+
+.box p{
+    text-align: center;
+    color:rgb(53, 53, 53);
+    font-weight: 500;
 }
