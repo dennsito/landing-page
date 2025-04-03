@@ -109,6 +109,7 @@ html{
     width: 168px;
     border: solid #ba4716 4px;
     border-radius: 8px;
+    object-fit: cover;
 }
 
 .box p{
