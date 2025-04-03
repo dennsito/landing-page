@@ -186,9 +186,12 @@ body{
 }
 
 .footer{
+    display: flex;
     background-color: #2f0404;
     padding: 32px 0;
     height: 64px;
     text-align: center;
     color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
 }
